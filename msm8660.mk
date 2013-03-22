@@ -42,7 +42,8 @@ PRODUCT_PACKAGES += \
     audio_policy.msm8660 \
     audio.primary.msm8660 \
     libaudioutils \
-    audio.usb.default
+    audio.usb.default \
+    audio_policy.conf
 
 # GPS
 PRODUCT_COPY_FILES += \

@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/common/gps/gps.conf_US_SUPL:system/etc/gps.conf
 
+# Goo
+PRODUCT_COPY_FILES += \
+    device/htc/msm8660-common/prebuilt/goomanager.apk:system/app/goomanager.apk
+
 # Graphics
 PRODUCT_PACKAGES += \
     copybit.msm8660 \
